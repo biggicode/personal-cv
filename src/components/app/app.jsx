@@ -1,11 +1,11 @@
-import * as S from "./app.style";
 import SectionTitle from "../section-title";
+import GridContainer from "../grid/grid-container";
 
 function App() {
   return (
-    <S.AppWrapper>
+    <GridContainer>
       <SectionTitle text="Welcome" />
-    </S.AppWrapper>
+    </GridContainer>
   );
 }
 
