@@ -1,10 +1,10 @@
-import SectionTitle from "../section-title";
 import GridContainer from "../grid/grid-container";
+import Welcome from "../welcome";
 
 function App() {
   return (
     <GridContainer>
-      <SectionTitle text="Welcome" />
+      <Welcome />
     </GridContainer>
   );
 }
