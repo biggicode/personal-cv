@@ -1,7 +1,7 @@
 import * as S from "./grid-row.style";
 
-function GridRow({ children, ...props }) {
-  return <S.GridRow {...props}>{children}</S.GridRow>;
+function GridRow({ children, gridColumn }) {
+  return <S.GridRow gridColumn={gridColumn}>{children}</S.GridRow>;
 }
 
 export default GridRow;
