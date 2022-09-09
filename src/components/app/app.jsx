@@ -1,5 +1,12 @@
+import GridContainer from "../grid/grid-container";
+import Welcome from "../welcome";
+
 function App() {
-  return <div>This is app</div>;
+  return (
+    <GridContainer>
+      <Welcome />
+    </GridContainer>
+  );
 }
 
 export default App;
