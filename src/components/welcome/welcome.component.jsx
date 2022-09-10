@@ -1,6 +1,7 @@
 import GridRow from "../grid/grid-row";
 import SectionTitle from "../section-title";
 import SectionIcon from "../section-icon";
+import SectionTitle from "../section-title";
 
 import * as S from "./welcome.style";
 
