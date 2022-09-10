@@ -2,6 +2,7 @@ import GridRow from "../grid/grid-row";
 import SectionTitle from "../section-title";
 import SectionIcon from "../section-icon";
 import SemiTitle from "../semi-title";
+import PillButton from "../pill-button";
 
 import * as S from "./welcome.style";
 
@@ -25,6 +26,9 @@ function Welcome() {
             Loasdas asddasd as asd as dasd asd
           </S.DescriptionText>
         </S.DescriptionBox>
+      </GridRow>
+      <GridRow>
+        <PillButton icon="download" url={"blabla"} text="Download CV" />
       </GridRow>
 
       <GridRow gridColumn="1/-1">
