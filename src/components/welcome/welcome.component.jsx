@@ -14,6 +14,9 @@ function Welcome() {
       <GridRow gridColumn={"1/-1"}>
         <S.Name>Laurentiu Oncescu</S.Name>
       </GridRow>
+      <GridRow gridColumn={"1/-1"}>
+        <S.JobTitle>Junior Web Developer</S.JobTitle>
+      </GridRow>
       <GridRow gridColumn="1/-1">
         <SectionIcon type="green" />
       </GridRow>
