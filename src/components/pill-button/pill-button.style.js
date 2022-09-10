@@ -4,6 +4,7 @@ export const StyledLink = styled.a`
   background-color: #1875f0;
   text-decoration: none;
   height: 40px;
+  width: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,6 +12,7 @@ export const StyledLink = styled.a`
   border-radius: 20px;
   padding-inline: 24px;
   color: #fff;
+  margin-inline: auto;
 `;
 
 export const StyledIcon = styled.div`

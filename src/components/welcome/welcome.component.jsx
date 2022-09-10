@@ -27,7 +27,7 @@ function Welcome() {
           </S.DescriptionText>
         </S.DescriptionBox>
       </GridRow>
-      <GridRow>
+      <GridRow gridColumn={"1/-1"}>
         <PillButton icon="download" url={"blabla"} text="Download CV" />
       </GridRow>
 
