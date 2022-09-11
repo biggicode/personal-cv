@@ -4,7 +4,7 @@ export const StyledLink = styled.a`
   background-color: #1875f0;
   text-decoration: none;
   height: 40px;
-  width: 150px;
+  width: 190px;
   display: flex;
   justify-content: center;
   align-items: center;
