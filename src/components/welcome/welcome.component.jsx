@@ -28,7 +28,8 @@ function Welcome() {
       <GridRow gridColumn={"1/-1"}>
         <S.DescriptionBox>
           <S.DescriptionText>
-            Loasdas asddasd as asd as dasd asd
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus, sapiente.
           </S.DescriptionText>
         </S.DescriptionBox>
       </GridRow>
