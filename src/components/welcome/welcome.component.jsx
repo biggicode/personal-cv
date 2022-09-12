@@ -7,36 +7,37 @@ import PillButton from "../pill-button";
 import * as S from "./welcome.style";
 import DumbGap from "../grid/dumb-gap";
 
+import Data from "../../data/info.json";
+
 function Welcome() {
+  const { welcome } = Data;
   return (
     <>
-      <SectionTitle text="Welcome to my CV" />
+      <SectionTitle text={welcome.sectionTitle} />
       <GridRow gridColumn="1/-1">
         <SectionIcon type="red" />
       </GridRow>
       <GridRow gridColumn={"1/-1"}>
-        <S.Name>Laurentiu Oncescu</S.Name>
+        <S.Name>{welcome.name}</S.Name>
       </GridRow>
       <GridRow gridColumn={"1/-1"}>
-        <S.JobTitle>Junior Web Developer</S.JobTitle>
+        <S.JobTitle>{welcome.jobTitle}</S.JobTitle>
       </GridRow>
 
       <DumbGap />
 
-      <SemiTitle text="About me" />
+      <SemiTitle text={welcome.sectionSubtitle} />
 
       <GridRow gridColumn={"1/-1"}>
         <S.DescriptionBox>
-          <S.DescriptionText>
-            Loasdas asddasd as asd as dasd asd
-          </S.DescriptionText>
+          <S.DescriptionText>{welcome.boxContent}</S.DescriptionText>
         </S.DescriptionBox>
       </GridRow>
 
       <DumbGap />
 
       <GridRow gridColumn={"1/-1"}>
-        <PillButton icon="download" url={"blabla"} text="Download CV" />
+        <PillButton icon="download" url={"blabla"} text={welcome.btnText} />
       </GridRow>
 
       <GridRow gridColumn="1/-1">
