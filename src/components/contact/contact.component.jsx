@@ -20,6 +20,17 @@ function Contact({ data }) {
       </GridRow>
 
       <DumbGap />
+      {data.buttonList.map((button) => (
+        <S.ContactButton>
+          <S.StyledIcon className={`icon-${button.icon}`} />
+        </S.ContactButton>
+      ))}
+
+      <DumbGap />
+
+      <GridRow gridColumn="1/-1">
+        <SectionIcon type="green" />
+      </GridRow>
     </>
   );
 }
