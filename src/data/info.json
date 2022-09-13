@@ -23,21 +23,21 @@
       {
         "icon": "facebook",
         "title": "Facebook",
-        "description": "You can call me at this number 0734234234 . I'm able to respond most of the time.",
+        "description": "I'm not very active on Facebook.",
         "label": "Laurentiu Oncescu",
         "link": "https://www.facebook.com/laurentiu.oncescu/"
       },
       {
         "icon": "codewars",
         "title": "Codewars",
-        "description": "You can call me at this number 0734234234 . I'm able to respond most of the time.",
+        "description": "I just found out about this platform. I think this platform is a great environment for coding exercises and I plan to do more of it.",
         "label": "0789898989",
         "link": "tel:0789898989"
       },
       {
         "icon": "linkedin",
         "title": "LinkedIn",
-        "description": "You can call me at this number 0734234234 . I'm able to respond most of the time.",
+        "description": "Click below to find out more info about me.",
         "label": "0789898989",
         "link": "tel:0789898989"
       }
