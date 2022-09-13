@@ -35,3 +35,41 @@ export const ContactBox = styled.div`
   background-color: #fff;
   border-radius: 6px;
 `;
+
+export const BoxHeader = styled.div`
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  p {
+    font-size: 22px;
+    color: #808080;
+    font-weight: 500;
+  }
+`;
+
+export const CrossIcon = styled.div`
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 12px;
+  background-color: #1875f0;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+`;
+
+export const BoxContent = styled.div`
+  padding: 20px;
+  border-bottom: 1px solid #f5f5f5;
+  border-top: 1px solid #f5f5f5;
+  font-size: 14px;
+  font-weight: 500;
+  color: #707070;
+`;
+
+export const BoxFooter = styled.div`
+  padding: 20px;
+`;

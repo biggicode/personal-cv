@@ -29,6 +29,17 @@ function Contact({ data }) {
       <DumbGap />
 
       <GridRow gridColumn="1/-1">
+        <S.ContactBox>
+          <S.BoxHeader>
+            <p>Merge</p>
+            <S.CrossIcon className="icon-cross" />
+          </S.BoxHeader>
+          <S.BoxContent>sdfidsfjni</S.BoxContent>
+          <S.BoxFooter>This is footer</S.BoxFooter>
+        </S.ContactBox>
+      </GridRow>
+
+      <GridRow gridColumn="1/-1">
         <SectionIcon type="green" />
       </GridRow>
     </>
