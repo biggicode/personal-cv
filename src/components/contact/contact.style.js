@@ -29,3 +29,9 @@ export const StyledIcon = styled.div`
   left: 50%;
   transform: translate(-50%, -50%);
 `;
+
+export const ContactBox = styled.div`
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
+  background-color: #fff;
+  border-radius: 6px;
+`;
