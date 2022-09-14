@@ -13,7 +13,7 @@ export const StyledImg = styled.img`
 `;
 
 export const ContactButton = styled.button`
-  background-color: #1875f0;
+  background-color: ${({ active }) => (active ? "#D52027" : "#1875f0")};
   width: 100%;
   padding-bottom: 100%;
   border-radius: 50%;
@@ -34,6 +34,18 @@ export const ContactBox = styled.div`
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.25);
   background-color: #fff;
   border-radius: 6px;
+  position: relative;
+
+  &:before {
+    content: "";
+    border-bottom: 9px solid #fff;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-top: 9px solid transparent;
+    position: absolute;
+    top: -18px;
+    left: 20px;
+  }
 `;
 
 export const BoxHeader = styled.div`

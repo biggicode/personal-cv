@@ -39,6 +39,7 @@ function Contact({ data }) {
             handleContact(button.icon);
           }}
           id={button.icon}
+          active={selected && selected.icon === button.icon}
         >
           <S.StyledIcon className={`icon-${button.icon}`} />
         </S.ContactButton>
