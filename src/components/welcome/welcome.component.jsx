@@ -9,35 +9,34 @@ import DumbGap from "../grid/dumb-gap";
 
 import Data from "../../data/info.json";
 
-function Welcome() {
-  const { welcome } = Data;
+function Welcome({ data }) {
   return (
     <>
-      <SectionTitle text={welcome.sectionTitle} />
+      <SectionTitle text={data.sectionTitle} />
       <GridRow gridColumn="1/-1">
         <SectionIcon type="red" />
       </GridRow>
       <GridRow gridColumn={"1/-1"}>
-        <S.Name>{welcome.name}</S.Name>
+        <S.Name>{data.name}</S.Name>
       </GridRow>
       <GridRow gridColumn={"1/-1"}>
-        <S.JobTitle>{welcome.jobTitle}</S.JobTitle>
+        <S.JobTitle>{data.jobTitle}</S.JobTitle>
       </GridRow>
 
       <DumbGap />
 
-      <SemiTitle text={welcome.sectionSubtitle} />
+      <SemiTitle text={data.sectionSubtitle} />
 
       <GridRow gridColumn={"1/-1"}>
         <S.DescriptionBox>
-          <S.DescriptionText>{welcome.boxContent}</S.DescriptionText>
+          <S.DescriptionText>{data.boxContent}</S.DescriptionText>
         </S.DescriptionBox>
       </GridRow>
 
       <DumbGap />
 
       <GridRow gridColumn={"1/-1"}>
-        <PillButton icon="download" url={"blabla"} text={welcome.btnText} />
+        <PillButton icon="download" url={"blabla"} text={data.btnText} />
       </GridRow>
 
       <GridRow gridColumn="1/-1">

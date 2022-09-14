@@ -45,7 +45,6 @@ body {
 
 .icon-codewars:before {
   content: "\e900";
-  color: #ad2c27;
 }
 .icon-book:before {
   content: "\e91f";
