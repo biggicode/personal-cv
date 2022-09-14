@@ -15,6 +15,10 @@ function Contact({ data }) {
     setSelected(data.buttonList.find((button) => button.icon === icon));
   };
 
+  const handleCross = () => {
+    setSelected(null);
+  };
+
   return (
     <>
       <SectionTitle text={data.sectionTitle} />
@@ -46,7 +50,7 @@ function Contact({ data }) {
           <S.ContactBox>
             <S.BoxHeader>
               <p>{selected.title}</p>
-              <S.CrossIcon className="icon-cross" />
+              <S.CrossIcon className="icon-cross" onClick={handleCross} />
             </S.BoxHeader>
             <S.BoxContent>{selected.description}</S.BoxContent>
             <S.BoxFooter>
