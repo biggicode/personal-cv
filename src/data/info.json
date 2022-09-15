@@ -42,5 +42,52 @@
         "link": "tel:0789898989"
       }
     ]
+  },
+  "skills": {
+    "sectionTitle": "Skills",
+    "legend": {
+      "legendTitle": "Legend",
+      "legendList": [
+        {
+          "icon": "heart",
+          "color": "#D52027",
+          "label": "Skills I love"
+        },
+        {
+          "icon": "trophy",
+          "color": "#50D166",
+          "label": "Skills I'm good at"
+        },
+        {
+          "icon": "book",
+          "color": "#F18F1C",
+          "label": "Skills I'd love to get better at"
+        }
+      ]
+    },
+    "skillsList": [
+      {
+        "listTitle": "Front End",
+        "pillList": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React",
+          "Redux",
+          "Styled Components",
+          "Sass",
+          "Less",
+          "Bootstrap"
+        ]
+      },
+      {
+        "listTitle": "Back End",
+        "pillList": ["NodeJS", "FireBase", "Git", "Rest"]
+      },
+      {
+        "listTitle": "Others",
+        "pillList": ["Windows", "Linux", "Jira", "Agile"]
+      }
+    ]
   }
 }
