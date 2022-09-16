@@ -69,24 +69,34 @@
       {
         "listTitle": "Front End",
         "pillList": [
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "React",
-          "Redux",
-          "Styled Components",
-          "Sass",
-          "Less",
-          "Bootstrap"
+          { "color": "#50D166", "label": "HTML" },
+          { "color": "#50D166", "label": "CSS" },
+          { "color": "#50D166", "label": "JavaScript" },
+          { "color": "#50D166", "label": "React" },
+          { "color": "#50D166", "label": "Redux" },
+          { "color": "#50D166", "label": "Styled Components" },
+          { "color": "#50D166", "label": "Sass" },
+          { "color": "#50D166", "label": "Less" },
+          { "color": "#50D166", "label": "Bootstrap" }
         ]
       },
       {
         "listTitle": "Back End",
-        "pillList": ["NodeJS", "FireBase", "Git", "Rest"]
+        "pillList": [
+          { "color": "#50D166", "label": "NodeJS" },
+          { "color": "#50D166", "label": "FireBase" },
+          { "color": "#50D166", "label": "Git" },
+          { "color": "#50D166", "label": "Rest" }
+        ]
       },
       {
         "listTitle": "Others",
-        "pillList": ["Windows", "Linux", "Jira", "Agile"]
+        "pillList": [
+          { "color": "#D52027", "label": "Windows" },
+          { "color": "#D52027", "label": "Linux" },
+          { "color": "#D52027", "label": "Jira" },
+          { "color": "#D52027", "label": "Agile" }
+        ]
       }
     ]
   }
