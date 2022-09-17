@@ -32,3 +32,16 @@ export const ListItemNumber = styled.p`
   color: #666666;
   margin-left: auto;
 `;
+
+export const Pill = styled.div`
+  line-height: 30px;
+  padding-inline: 17px;
+  color: #fff;
+  font-size: 9px;
+  font-weight: 800;
+  margin-right: 10px;
+  margin-top: 10px;
+  background-color: ${({ bgColor }) => bgColor};
+  display: inline-block;
+  border-radius: 15px;
+`;
