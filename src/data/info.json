@@ -42,5 +42,62 @@
         "link": "tel:0789898989"
       }
     ]
+  },
+  "skills": {
+    "sectionTitle": "Skills",
+    "legend": {
+      "legendTitle": "Legend",
+      "legendList": [
+        {
+          "icon": "heart",
+          "color": "#D52027",
+          "label": "Skills I love"
+        },
+        {
+          "icon": "trophy",
+          "color": "#50D166",
+          "label": "Skills I'm good at"
+        },
+        {
+          "icon": "book",
+          "color": "#F18F1C",
+          "label": "Skills I'd love to get better at"
+        }
+      ]
+    },
+    "skillsList": [
+      {
+        "listTitle": "Front End",
+        "pillList": [
+          { "color": "#50D166", "label": "HTML" },
+          { "color": "#50D166", "label": "CSS" },
+          { "color": "#50D166", "label": "JavaScript" },
+          { "color": "#50D166", "label": "React" },
+          { "color": "#50D166", "label": "Redux" },
+          { "color": "#50D166", "label": "Styled Components" },
+          { "color": "#50D166", "label": "Sass" },
+          { "color": "#50D166", "label": "Less" },
+          { "color": "#50D166", "label": "Bootstrap" }
+        ]
+      },
+      {
+        "listTitle": "Back End",
+        "pillList": [
+          { "color": "#50D166", "label": "NodeJS" },
+          { "color": "#50D166", "label": "FireBase" },
+          { "color": "#50D166", "label": "Git" },
+          { "color": "#50D166", "label": "Rest" }
+        ]
+      },
+      {
+        "listTitle": "Others",
+        "pillList": [
+          { "color": "#D52027", "label": "Windows" },
+          { "color": "#D52027", "label": "Linux" },
+          { "color": "#D52027", "label": "Jira" },
+          { "color": "#D52027", "label": "Agile" }
+        ]
+      }
+    ]
   }
 }
