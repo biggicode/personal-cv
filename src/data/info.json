@@ -99,5 +99,67 @@
         ]
       }
     ]
+  },
+  "portfolio": {
+    "sectionTitle": "Portfolio",
+    "subTitle": "My recent projects",
+    "projects": [
+      {
+        "title": "Bid & Sell",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React",
+          "FireBase",
+          "Redux",
+          "StyledComponents"
+        ],
+        "url": "#",
+        "gitHub": "https://github.com/biggicode/bid-and-sell"
+      },
+      {
+        "title": "Guess my Number",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React",
+          "FireBase",
+          "Redux",
+          "StyledComponents"
+        ],
+        "url": "#",
+        "gitHub": "https://github.com/biggicode/bid-and-sell"
+      },
+      {
+        "title": "Personal Cv",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React",
+          "FireBase",
+          "Redux",
+          "StyledComponents"
+        ],
+        "url": "#",
+        "gitHub": "https://github.com/biggicode/bid-and-sell"
+      },
+      {
+        "title": "Recipe App",
+        "technologies": [
+          "HTML",
+          "CSS",
+          "JavaScript",
+          "React",
+          "FireBase",
+          "Redux",
+          "StyledComponents"
+        ],
+        "url": "#",
+        "gitHub": "https://github.com/biggicode/bid-and-sell"
+      }
+    ]
   }
 }
