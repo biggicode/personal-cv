@@ -24,6 +24,7 @@ function Portfolio({ data }) {
                 {project.technologies.join(", ")}
               </S.ProjectTechnologies>
             </S.BoxHeader>
+            <S.StyledImg src="/bid.png" />
           </S.Card>
         </GridRow>
       ))}
