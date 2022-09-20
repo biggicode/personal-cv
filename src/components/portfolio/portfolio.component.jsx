@@ -25,7 +25,14 @@ function Portfolio({ data }) {
               </S.ProjectTechnologies>
             </S.BoxHeader>
             <S.StyledImg src="/bid.png" />
-            <S.ProjectButton />
+            {project.buttons.map((button, index) => (
+              <S.ProjectButton
+                key={index}
+                number={index}
+                className={`icon-${button.icon}`}
+                href={button.url}
+              />
+            ))}
           </S.Card>
         </GridRow>
       ))}

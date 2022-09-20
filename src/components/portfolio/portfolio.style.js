@@ -5,6 +5,7 @@ export const Card = styled.div`
   border-radius: 6px;
   background-color: #fff;
   margin-bottom: 40px;
+  position: relative;
 `;
 
 export const BoxHeader = styled.div`
@@ -35,9 +36,17 @@ export const StyledImg = styled.img`
 `;
 
 export const ProjectButton = styled.a`
-  display: block;
   width: 40px;
   height: 40px;
   background-color: #ff006d;
   border-radius: 0 0 50% 50%;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -42px;
+  right: ${({ number }) => 5 + number * 41}px;
 `;
