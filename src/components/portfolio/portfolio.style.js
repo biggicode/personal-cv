@@ -22,6 +22,7 @@ export const ProjectTitle = styled.p`
 
 export const ProjectTechnologies = styled.p`
   font-size: 13px;
+  line-height: 20px;
   color: #707070;
   font-style: italic;
 `;

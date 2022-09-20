@@ -36,6 +36,9 @@ function Portfolio({ data }) {
           </S.Card>
         </GridRow>
       ))}
+      <GridRow gridColumn="1/-1">
+        <SectionIcon type="green" />
+      </GridRow>
     </>
   );
 }
