@@ -115,8 +115,16 @@
           "Redux",
           "StyledComponents"
         ],
-        "url": "#",
-        "gitHub": "https://github.com/biggicode/bid-and-sell"
+        "buttons": [
+          {
+            "icon": "earth",
+            "url": "#"
+          },
+          {
+            "icon": "github",
+            "url": "https://github.com/biggicode/bid-and-sell"
+          }
+        ]
       },
       {
         "title": "Guess my Number",
@@ -129,8 +137,16 @@
           "Redux",
           "StyledComponents"
         ],
-        "url": "#",
-        "gitHub": "https://github.com/biggicode/bid-and-sell"
+        "buttons": [
+          {
+            "icon": "earth",
+            "url": "#"
+          },
+          {
+            "icon": "github",
+            "url": "https://github.com/biggicode/bid-and-sell"
+          }
+        ]
       },
       {
         "title": "Personal Cv",
@@ -143,8 +159,16 @@
           "Redux",
           "StyledComponents"
         ],
-        "url": "#",
-        "gitHub": "https://github.com/biggicode/bid-and-sell"
+        "buttons": [
+          {
+            "icon": "earth",
+            "url": "#"
+          },
+          {
+            "icon": "github",
+            "url": "https://github.com/biggicode/bid-and-sell"
+          }
+        ]
       },
       {
         "title": "Recipe App",
@@ -157,8 +181,16 @@
           "Redux",
           "StyledComponents"
         ],
-        "url": "#",
-        "gitHub": "https://github.com/biggicode/bid-and-sell"
+        "buttons": [
+          {
+            "icon": "earth",
+            "url": "#"
+          },
+          {
+            "icon": "github",
+            "url": "https://github.com/biggicode/bid-and-sell"
+          }
+        ]
       }
     ]
   }

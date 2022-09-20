@@ -33,3 +33,11 @@ export const StyledImg = styled.img`
   display: block;
   border-radius: 0 0 4px 4px;
 `;
+
+export const ProjectButton = styled.a`
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #ff006d;
+  border-radius: 0 0 50% 50%;
+`;

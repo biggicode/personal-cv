@@ -25,6 +25,7 @@ function Portfolio({ data }) {
               </S.ProjectTechnologies>
             </S.BoxHeader>
             <S.StyledImg src="/bid.png" />
+            <S.ProjectButton />
           </S.Card>
         </GridRow>
       ))}
