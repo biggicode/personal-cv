@@ -193,5 +193,20 @@
         ]
       }
     ]
+  },
+  "recommendations": {
+    "sectionTitle": "Recommendations",
+    "recomList": [
+      {
+        "personName": "Bidi",
+        "personJob": "Full stack developer",
+        "recomText": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit dolore et exercitationem ad tenetur, modi deserunt! Ex inventore molestiae corporis officia? Tenetur ullam minima, deserunt tempore nostrum fuga? Dicta, nihil. Labore adipisci provident rem atque asperiores cupiditate praesentium repellat possimus perspiciatis. Velit exercitationem, maxime vero doloremque veniam perspiciatis recusandae incidunt sed quos dolorem! Magni esse accusamus facilis, provident dolore ducimus."
+      },
+      {
+        "personName": "Stefan",
+        "personJob": "Full stack developer",
+        "recomText": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit dolore et exercitationem ad tenetur, modi deserunt! Ex inventore molestiae corporis officia? Tenetur ullam minima, deserunt tempore nostrum fuga? Dicta, nihil. Labore adipisci provident rem atque asperiores cupiditate praesentium repellat possimus perspiciatis. Velit exercitationem, maxime vero doloremque veniam perspiciatis recusandae incidunt sed quos dolorem! Magni esse accusamus facilis, provident dolore ducimus."
+      }
+    ]
   }
 }
