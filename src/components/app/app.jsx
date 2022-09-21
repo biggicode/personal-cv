@@ -3,11 +3,12 @@ import Welcome from "../welcome";
 import Contact from "../contact";
 import Skills from "../skills";
 import Portfolio from "../portfolio";
+import Recommendations from "../recommendations";
 
 import Data from "../../data/info.json";
 
 function App() {
-  const { welcome, contact, skills, portfolio } = Data;
+  const { welcome, contact, skills, portfolio, recommendations } = Data;
 
   return (
     <GridContainer>
@@ -15,6 +16,7 @@ function App() {
       <Contact data={contact} />
       <Skills data={skills} />
       <Portfolio data={portfolio} />
+      <Recommendations data={recommendations} />
     </GridContainer>
   );
 }
