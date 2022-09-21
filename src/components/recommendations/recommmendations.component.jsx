@@ -18,7 +18,13 @@ function Recommendations({ data }) {
 
           <GridRow gridColumn="span 4" key={recom.personName}>
             <S.RecommendContainer>
-              <S.RecommendHeader></S.RecommendHeader>
+              <S.RecommendHeader>
+                <S.RecommendImg />
+                <S.NameWrapper>
+                  <S.Name>{recom.personName}</S.Name>
+                  <S.Job>{recom.personJob}</S.Job>
+                </S.NameWrapper>
+              </S.RecommendHeader>
               <S.RecommendBody>
                 <S.RecommendText>{recom.recomText}</S.RecommendText>
               </S.RecommendBody>
@@ -26,6 +32,9 @@ function Recommendations({ data }) {
           </GridRow>
         </>
       ))}
+      <GridRow gridColumn="1/-1">
+        <SectionIcon type="green" />
+      </GridRow>
     </>
   );
 }
