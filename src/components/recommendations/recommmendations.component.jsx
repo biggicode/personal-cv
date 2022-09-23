@@ -4,6 +4,7 @@ import GridRow from "../grid/grid-row";
 import DumpGap from "../grid/dumb-gap";
 
 import * as S from "./recommendations.style";
+import { Fragment } from "react";
 
 function Recommendations({ data }) {
   return (
@@ -13,7 +14,7 @@ function Recommendations({ data }) {
         <SectionIcon type="red" />
       </GridRow>
       {data.recomList.map((recom, index) => (
-        <>
+        <Fragment key={index}>
           {index ? <DumpGap /> : ""}
 
           <GridRow gridColumn="span 4" key={recom.personName}>
@@ -30,7 +31,7 @@ function Recommendations({ data }) {
               </S.RecommendBody>
             </S.RecommendContainer>
           </GridRow>
-        </>
+        </Fragment>
       ))}
       <GridRow gridColumn="1/-1">
         <SectionIcon type="green" />
