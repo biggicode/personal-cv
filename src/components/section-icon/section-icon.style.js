@@ -12,8 +12,4 @@ export const StyledLink = styled.a`
   justify-content: center;
   border-radius: 50%;
   text-decoration: none;
-
-  &:nth-last-of-type() {
-    transform: rotate(180deg);
-  }
 `;
