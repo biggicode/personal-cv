@@ -7,8 +7,6 @@ import PillButton from "../pill-button";
 import * as S from "./welcome.style";
 import DumbGap from "../grid/dumb-gap";
 
-import Data from "../../data/info.json";
-
 function Welcome({ data }) {
   return (
     <>
