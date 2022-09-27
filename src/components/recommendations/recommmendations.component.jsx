@@ -20,7 +20,7 @@ function Recommendations({ data }) {
           <GridRow gridColumn="span 4" key={recom.personName}>
             <S.RecommendContainer>
               <S.RecommendHeader>
-                <S.RecommendImg />
+                <S.RecommendImg src={recom.avatar} />
                 <S.NameWrapper>
                   <S.Name>{recom.personName}</S.Name>
                   <S.Job>{recom.personJob}</S.Job>
