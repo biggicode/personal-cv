@@ -9,10 +9,10 @@ function Portfolio({ data }) {
   return (
     <>
       <SectionTitle text={data.sectionTitle} />
-      <GridRow gridColumn="1/-1">
+      <GridRow>
         <SectionIcon type="red" />
       </GridRow>
-      <GridRow gridColumn="1/-1">
+      <GridRow>
         <SemiTitle text={data.subTitle} />
       </GridRow>
       {data.projects.map((project) => (
@@ -36,7 +36,7 @@ function Portfolio({ data }) {
           </S.Card>
         </GridRow>
       ))}
-      <GridRow gridColumn="1/-1">
+      <GridRow>
         <SectionIcon type="green" />
       </GridRow>
     </>

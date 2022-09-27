@@ -22,7 +22,7 @@ function Contact({ data }) {
   return (
     <>
       <SectionTitle text={data.sectionTitle} />
-      <GridRow gridColumn="1/-1">
+      <GridRow>
         <SectionIcon type="red" />
       </GridRow>
       <GridRow gridColumn="span 4">
@@ -47,7 +47,7 @@ function Contact({ data }) {
 
       <DumbGap />
       {selected && (
-        <GridRow gridColumn="1/-1">
+        <GridRow>
           <S.ContactBox>
             <S.BoxHeader>
               <p>{selected.title}</p>
@@ -65,7 +65,7 @@ function Contact({ data }) {
         </GridRow>
       )}
 
-      <GridRow gridColumn="1/-1">
+      <GridRow>
         <SectionIcon type="green" />
       </GridRow>
     </>

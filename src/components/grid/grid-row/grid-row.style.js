@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const GridRow = styled.div`
-  grid-column: ${({ gridColumn }) => gridColumn};
+  grid-column: ${({ gridColumn }) => (gridColumn ? gridColumn : "1/-1")};
 
   &:last-of-type .icon-arrow-down {
     transform: rotate(180deg);

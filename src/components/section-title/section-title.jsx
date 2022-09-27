@@ -3,7 +3,7 @@ import GridRow from "../grid/grid-row";
 
 function SectionTitle({ text }) {
   return (
-    <GridRow gridColumn="1/-1">
+    <GridRow>
       <S.Wrapper>
         <S.Heading>{text}</S.Heading>
       </S.Wrapper>

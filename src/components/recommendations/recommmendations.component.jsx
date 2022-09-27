@@ -10,7 +10,7 @@ function Recommendations({ data }) {
   return (
     <>
       <SectionTitle text={data.sectionTitle} />
-      <GridRow gridColumn="1/-1">
+      <GridRow>
         <SectionIcon type="red" />
       </GridRow>
       {data.recomList.map((recom, index) => (
@@ -33,7 +33,7 @@ function Recommendations({ data }) {
           </GridRow>
         </Fragment>
       ))}
-      <GridRow gridColumn="1/-1">
+      <GridRow>
         <SectionIcon type="green" />
       </GridRow>
     </>

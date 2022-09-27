@@ -10,7 +10,7 @@ function Skills({ data }) {
   return (
     <>
       <SectionTitle text={data.sectionTitle} />
-      <GridRow gridColumn="1/-1">
+      <GridRow>
         <SectionIcon type="red" />
       </GridRow>
       <SemiTitle text={data.legend.legendTitle} />
@@ -32,7 +32,7 @@ function Skills({ data }) {
         <Fragment key={skillSection.listTitle}>
           <DumbpGap />
           <SemiTitle text={skillSection.listTitle} />
-          <GridRow gridColumn="1/-1">
+          <GridRow>
             {skillSection.pillList.map((pill) => (
               <S.Pill bgColor={pill.color} key={pill.label}>
                 {pill.label}
@@ -41,7 +41,7 @@ function Skills({ data }) {
           </GridRow>
         </Fragment>
       ))}
-      <GridRow gridColumn="1/-1">
+      <GridRow>
         <SectionIcon type="green" />
       </GridRow>
     </>

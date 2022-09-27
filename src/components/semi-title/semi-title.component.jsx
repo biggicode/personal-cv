@@ -3,7 +3,7 @@ import GridRow from "../grid/grid-row";
 
 function SemiTitle({ text }) {
   return (
-    <GridRow gridColumn={"1/-1"}>
+    <GridRow>
       <S.SemiTitle>{text}</S.SemiTitle>
     </GridRow>
   );

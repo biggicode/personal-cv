@@ -13,13 +13,13 @@ function Welcome({ data }) {
   return (
     <>
       <SectionTitle text={data.sectionTitle} />
-      <GridRow gridColumn="1/-1">
+      <GridRow>
         <SectionIcon type="red" />
       </GridRow>
-      <GridRow gridColumn={"1/-1"}>
+      <GridRow>
         <S.Name>{data.name}</S.Name>
       </GridRow>
-      <GridRow gridColumn={"1/-1"}>
+      <GridRow>
         <S.JobTitle>{data.jobTitle}</S.JobTitle>
       </GridRow>
 
@@ -27,7 +27,7 @@ function Welcome({ data }) {
 
       <SemiTitle text={data.sectionSubtitle} />
 
-      <GridRow gridColumn={"1/-1"}>
+      <GridRow>
         <S.DescriptionBox>
           <S.DescriptionText>{data.boxContent}</S.DescriptionText>
         </S.DescriptionBox>
@@ -35,11 +35,11 @@ function Welcome({ data }) {
 
       <DumbGap />
 
-      <GridRow gridColumn={"1/-1"}>
+      <GridRow>
         <PillButton icon="download" url={"blabla"} text={data.btnText} />
       </GridRow>
 
-      <GridRow gridColumn="1/-1">
+      <GridRow>
         <SectionIcon type="green" />
       </GridRow>
     </>
