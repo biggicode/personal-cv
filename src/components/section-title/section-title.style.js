@@ -17,6 +17,16 @@ export const Wrapper = styled.div`
     left: -35px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
     z-index: -1;
+
+    @media screen and (min-width: 768px) {
+      right: -80px;
+      left: -80px;
+    }
+
+    @media screen and (min-width: 1366px) {
+      right: -140px;
+      left: -140px;
+    }
   }
 `;
 
