@@ -31,19 +31,20 @@ function Contact({ data }) {
         </S.ImgWrapper>
       </GridRow>
 
-      <DumbGap />
-      {data.buttonList.map((button) => (
-        <S.ContactButton
-          key={button.icon}
-          onClick={() => {
-            handleContact(button.icon);
-          }}
-          id={button.icon}
-          active={selected && selected.icon === button.icon}
-        >
-          <S.StyledIcon className={`icon-${button.icon}`} />
-        </S.ContactButton>
-      ))}
+      <S.WrapperButtons>
+        {data.buttonList.map((button) => (
+          <S.ContactButton
+            key={button.icon}
+            onClick={() => {
+              handleContact(button.icon);
+            }}
+            id={button.icon}
+            active={selected && selected.icon === button.icon}
+          >
+            <S.StyledIcon className={`icon-${button.icon}`} />
+          </S.ContactButton>
+        ))}
+      </S.WrapperButtons>
 
       {selected && (
         <>

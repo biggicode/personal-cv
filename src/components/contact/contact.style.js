@@ -90,3 +90,17 @@ export const BoxContent = styled.div`
 export const BoxFooter = styled.div`
   padding: 20px;
 `;
+
+export const WrapperButtons = styled.div`
+  padding-top: 20px;
+  grid-column: span 4;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+
+  @media screen and (min-width: 768px) {
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 16px;
+    padding-top: 0;
+  }
+`;
