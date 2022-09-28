@@ -4,6 +4,10 @@ export const RecommendContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 30px;
+
+  @media screen and (max-width: 768px) {
+    ${({ index }) => (index ? "margin-top: 20px;" : "")}
+  }
 `;
 
 export const RecommendHeader = styled.div`

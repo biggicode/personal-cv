@@ -15,10 +15,8 @@ function Recommendations({ data }) {
       </GridRow>
       {data.recomList.map((recom, index) => (
         <Fragment key={index}>
-          {index ? <DumpGap /> : ""}
-
           <GridRow gridColumn="span 4" key={recom.personName}>
-            <S.RecommendContainer>
+            <S.RecommendContainer index={index}>
               <S.RecommendHeader>
                 <S.RecommendImg src={recom.avatar} />
                 <S.NameWrapper>
