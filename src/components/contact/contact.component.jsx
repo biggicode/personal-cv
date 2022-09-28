@@ -45,9 +45,9 @@ function Contact({ data }) {
         </S.ContactButton>
       ))}
 
-      <DumbGap />
       {selected && (
-        <GridRow>
+        <>
+          <DumbGap />
           <S.ContactBox>
             <S.BoxHeader>
               <p>{selected.title}</p>
@@ -62,7 +62,7 @@ function Contact({ data }) {
               />
             </S.BoxFooter>
           </S.ContactBox>
-        </GridRow>
+        </>
       )}
 
       <GridRow>

@@ -35,6 +35,11 @@ export const ContactBox = styled.div`
   background-color: #fff;
   border-radius: 6px;
   position: relative;
+  grid-column: 1/-1;
+
+  @media screen and (min-width: 1366px) {
+    grid-column: span 8;
+  }
 
   &:before {
     content: "";
