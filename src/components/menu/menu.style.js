@@ -2,8 +2,8 @@ import styled from "styled-components";
 
 export const MenuWrapper = styled.div`
   background-color: #fff;
-  width: 220px;
-  /* height: 40px; */
+  width: ${({ active }) => (active ? "220px" : "40px")};
+  ${({ active }) => (active ? "" : "height: 40px;")}
   border: 2px solid #707070;
   border-radius: 6px;
   display: flex;
@@ -30,4 +30,12 @@ export const MenuLink = styled.a`
     background-color: #ff006d;
     color: #fff;
   }
+`;
+
+export const Hamburger = styled.div`
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
 `;
