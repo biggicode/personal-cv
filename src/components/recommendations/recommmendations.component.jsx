@@ -1,7 +1,6 @@
 import SectionTitle from "../section-title";
 import SectionIcon from "../section-icon";
 import GridRow from "../grid/grid-row";
-import DumpGap from "../grid/dumb-gap";
 
 import * as S from "./recommendations.style";
 import { Fragment } from "react";
