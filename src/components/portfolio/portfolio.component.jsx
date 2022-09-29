@@ -8,7 +8,7 @@ import * as S from "./portfolio.style";
 function Portfolio({ data }) {
   return (
     <>
-      <SectionTitle text={data.sectionTitle} />
+      <SectionTitle id="portfolio" text={data.sectionTitle} />
       <GridRow>
         <SectionIcon type="red" />
       </GridRow>

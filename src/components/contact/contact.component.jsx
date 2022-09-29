@@ -21,7 +21,7 @@ function Contact({ data }) {
 
   return (
     <>
-      <SectionTitle text={data.sectionTitle} />
+      <SectionTitle id="contact" text={data.sectionTitle} />
       <GridRow>
         <SectionIcon type="red" />
       </GridRow>

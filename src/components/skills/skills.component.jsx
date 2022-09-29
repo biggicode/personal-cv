@@ -9,7 +9,7 @@ import { Fragment } from "react";
 function Skills({ data }) {
   return (
     <>
-      <SectionTitle text={data.sectionTitle} />
+      <SectionTitle id="skills" text={data.sectionTitle} />
       <GridRow>
         <SectionIcon type="red" />
       </GridRow>

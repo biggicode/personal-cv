@@ -10,7 +10,7 @@ import DumbGap from "../grid/dumb-gap";
 function Welcome({ data }) {
   return (
     <>
-      <SectionTitle text={data.sectionTitle} />
+      <SectionTitle id="welcome" text={data.sectionTitle} />
       <GridRow>
         <SectionIcon type="red" />
       </GridRow>

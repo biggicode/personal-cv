@@ -9,7 +9,7 @@ import { Fragment } from "react";
 function Recommendations({ data }) {
   return (
     <>
-      <SectionTitle text={data.sectionTitle} />
+      <SectionTitle id="recommendations" text={data.sectionTitle} />
       <GridRow>
         <SectionIcon type="red" />
       </GridRow>

@@ -10,6 +10,7 @@ import Data from "../../data/info.json";
 
 function App() {
   const { welcome, contact, skills, portfolio, recommendations } = Data;
+  const sectionsNameList = Object.keys(Data);
 
   return (
     <GridContainer>
@@ -18,7 +19,7 @@ function App() {
       <Skills data={skills} />
       <Portfolio data={portfolio} />
       <Recommendations data={recommendations} />
-      <Menu />
+      <Menu linkList={sectionsNameList} />
     </GridContainer>
   );
 }
