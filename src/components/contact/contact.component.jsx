@@ -21,8 +21,8 @@ function Contact({ data }) {
 
   return (
     <>
-      <SectionTitle text={data.sectionTitle} />
-      <GridRow gridColumn="1/-1">
+      <SectionTitle id="contact" text={data.sectionTitle} />
+      <GridRow>
         <SectionIcon type="red" />
       </GridRow>
       <GridRow gridColumn="span 4">
@@ -31,23 +31,24 @@ function Contact({ data }) {
         </S.ImgWrapper>
       </GridRow>
 
-      <DumbGap />
-      {data.buttonList.map((button) => (
-        <S.ContactButton
-          key={button.icon}
-          onClick={() => {
-            handleContact(button.icon);
-          }}
-          id={button.icon}
-          active={selected && selected.icon === button.icon}
-        >
-          <S.StyledIcon className={`icon-${button.icon}`} />
-        </S.ContactButton>
-      ))}
+      <S.WrapperButtons>
+        {data.buttonList.map((button) => (
+          <S.ContactButton
+            key={button.icon}
+            onClick={() => {
+              handleContact(button.icon);
+            }}
+            id={button.icon}
+            active={selected && selected.icon === button.icon}
+          >
+            <S.StyledIcon className={`icon-${button.icon}`} />
+          </S.ContactButton>
+        ))}
+      </S.WrapperButtons>
 
-      <DumbGap />
       {selected && (
-        <GridRow gridColumn="1/-1">
+        <>
+          <DumbGap />
           <S.ContactBox>
             <S.BoxHeader>
               <p>{selected.title}</p>
@@ -62,10 +63,10 @@ function Contact({ data }) {
               />
             </S.BoxFooter>
           </S.ContactBox>
-        </GridRow>
+        </>
       )}
 
-      <GridRow gridColumn="1/-1">
+      <GridRow>
         <SectionIcon type="green" />
       </GridRow>
     </>

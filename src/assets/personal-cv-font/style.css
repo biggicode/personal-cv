@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'personal-cv';
-  src:  url('fonts/personal-cv.eot?fhubs3');
-  src:  url('fonts/personal-cv.eot?fhubs3#iefix') format('embedded-opentype'),
-    url('fonts/personal-cv.ttf?fhubs3') format('truetype'),
-    url('fonts/personal-cv.woff?fhubs3') format('woff'),
-    url('fonts/personal-cv.svg?fhubs3#personal-cv') format('svg');
+  src:  url('fonts/personal-cv.eot?nrinad');
+  src:  url('fonts/personal-cv.eot?nrinad#iefix') format('embedded-opentype'),
+    url('fonts/personal-cv.ttf?nrinad') format('truetype'),
+    url('fonts/personal-cv.woff?nrinad') format('woff'),
+    url('fonts/personal-cv.svg?nrinad#personal-cv') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -37,6 +37,9 @@
 }
 .icon-trophy:before {
   content: "\e99e";
+}
+.icon-menu:before {
+  content: "\e9bd";
 }
 .icon-download:before {
   content: "\e9c7";

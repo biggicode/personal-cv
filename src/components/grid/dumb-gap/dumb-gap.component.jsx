@@ -3,7 +3,7 @@ import * as S from "./dumb-gap.style";
 
 function DumbGap() {
   return (
-    <GridRow gridColumn={"1/-1"}>
+    <GridRow>
       <S.StyledDiv></S.StyledDiv>
     </GridRow>
   );

@@ -13,14 +13,14 @@ body {
 
 @font-face {
   font-family: "personal-cv";
-  src: url("./assets/personal-cv-font/fonts/personal-cv.eot?fhubs3");
-  src: url("./assets/personal-cv-font/fonts/personal-cv.eot?fhubs3#iefix")
+  src: url("./assets/personal-cv-font/fonts/personal-cv.eot?nrinad");
+  src: url("./assets/personal-cv-font/fonts/personal-cv.eot?nrinad#iefix")
       format("embedded-opentype"),
-    url("./assets/personal-cv-font/fonts/personal-cv.ttf?fhubs3")
+    url("./assets/personal-cv-font/fonts/personal-cv.ttf?nrinad")
       format("truetype"),
-    url("./assets/personal-cv-font/fonts/personal-cv.woff?fhubs3")
+    url("./assets/personal-cv-font/fonts/personal-cv.woff?nrinad")
       format("woff"),
-    url("./assets/personal-cv-font/fonts/personal-cv.svg?fhubs3#personal-cv")
+    url("./assets/personal-cv-font/fonts/personal-cv.svg?nrinad#personal-cv")
       format("svg");
   font-weight: normal;
   font-style: normal;
@@ -54,6 +54,9 @@ body {
 }
 .icon-trophy:before {
   content: "\e99e";
+}
+.icon-menu:before {
+  content: "\e9bd";
 }
 .icon-download:before {
   content: "\e9c7";
