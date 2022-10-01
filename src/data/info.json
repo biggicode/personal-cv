@@ -106,6 +106,7 @@
     "projects": [
       {
         "title": "Bid & Sell",
+        "img": "bid.png",
         "technologies": [
           "HTML",
           "CSS",
@@ -128,6 +129,7 @@
       },
       {
         "title": "Guess my Number",
+        "img": "bid.png",
         "technologies": [
           "HTML",
           "CSS",
@@ -150,6 +152,7 @@
       },
       {
         "title": "Personal Cv",
+        "img": "bid.png",
         "technologies": [
           "HTML",
           "CSS",
@@ -172,6 +175,7 @@
       },
       {
         "title": "Recipe App",
+        "img": "recipe.png",
         "technologies": [
           "HTML",
           "CSS",
