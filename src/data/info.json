@@ -118,7 +118,7 @@
         "buttons": [
           {
             "icon": "earth",
-            "url": "#"
+            "url": "https://radiant-empanada-c4678d.netlify.app/"
           },
           {
             "icon": "github",
@@ -176,19 +176,19 @@
           "HTML",
           "CSS",
           "JavaScript",
-          "React",
-          "FireBase",
-          "Redux",
-          "StyledComponents"
+          "MVC",
+          "AJAX",
+          "Sass",
+          "Netlify"
         ],
         "buttons": [
           {
             "icon": "earth",
-            "url": "#"
+            "url": "https://recipe-laurentiu.netlify.app/#5ed6604591c37cdc054bc9ca"
           },
           {
             "icon": "github",
-            "url": "https://github.com/biggicode/bid-and-sell"
+            "url": "https://github.com/biggicode/Recipe-App"
           }
         ]
       }
