@@ -129,24 +129,16 @@
       },
       {
         "title": "Guess my Number",
-        "img": "bid.png",
-        "technologies": [
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "React",
-          "FireBase",
-          "Redux",
-          "StyledComponents"
-        ],
+        "img": "guess.png",
+        "technologies": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
         "buttons": [
           {
             "icon": "earth",
-            "url": "#"
+            "url": "https://biggicode.github.io/guess-my-numer/"
           },
           {
             "icon": "github",
-            "url": "https://github.com/biggicode/bid-and-sell"
+            "url": "https://github.com/biggicode/guess-my-numer"
           }
         ]
       },
