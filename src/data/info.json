@@ -144,7 +144,7 @@
       },
       {
         "title": "Personal Cv",
-        "img": "bid.png",
+        "img": "cv.png",
         "technologies": [
           "HTML",
           "CSS",
@@ -161,7 +161,7 @@
           },
           {
             "icon": "github",
-            "url": "https://github.com/biggicode/bid-and-sell"
+            "url": "https://github.com/biggicode/personal-cv"
           }
         ]
       },
