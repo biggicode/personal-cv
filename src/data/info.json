@@ -187,6 +187,21 @@
             "url": "https://github.com/biggicode/Recipe-App"
           }
         ]
+      },
+      {
+        "title": "Landio HTML and CSS exercise",
+        "img": "landio.png",
+        "technologies": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+        "buttons": [
+          {
+            "icon": "earth",
+            "url": "https://biggicode.github.io/landio-landing-page/src/"
+          },
+          {
+            "icon": "github",
+            "url": "https://github.com/biggicode/landio-landing-page"
+          }
+        ]
       }
     ]
   },
