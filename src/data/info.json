@@ -219,6 +219,36 @@
         ]
       },
       {
+        "title": "PlayStation HTML and CSS exercise",
+        "img": "playstation.png",
+        "technologies": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+        "buttons": [
+          {
+            "icon": "earth",
+            "url": "https://biggicode.github.io/ps-presentation/src/"
+          },
+          {
+            "icon": "github",
+            "url": "https://github.com/biggicode/ps-presentation"
+          }
+        ]
+      },
+      {
+        "title": "Dance Club HTML and CSS exercise",
+        "img": "dance.png",
+        "technologies": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+        "buttons": [
+          {
+            "icon": "earth",
+            "url": "https://biggicode.github.io/dance-class/src/"
+          },
+          {
+            "icon": "github",
+            "url": "https://github.com/biggicode/dance-class"
+          }
+        ]
+      },
+      {
         "title": "Landio HTML and CSS exercise",
         "img": "landio.png",
         "technologies": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
