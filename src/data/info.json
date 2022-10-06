@@ -204,6 +204,21 @@
         ]
       },
       {
+        "title": "Restaurant HTML and CSS exercise",
+        "img": "restaurant.png",
+        "technologies": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+        "buttons": [
+          {
+            "icon": "earth",
+            "url": "https://biggicode.github.io/food-restaurant/src/"
+          },
+          {
+            "icon": "github",
+            "url": "https://github.com/biggicode/food-restaurant"
+          }
+        ]
+      },
+      {
         "title": "Landio HTML and CSS exercise",
         "img": "landio.png",
         "technologies": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
