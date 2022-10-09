@@ -24,7 +24,7 @@ function Portfolio({ data }) {
                 {project.technologies.join(", ")}
               </S.ProjectTechnologies>
             </S.BoxHeader>
-            <S.StyledImg src="/bid.png" />
+            <S.StyledImg src={`/${project.img}`} />
             {project.buttons.map((button, index) => (
               <S.ProjectButton
                 key={index}

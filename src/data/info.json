@@ -106,6 +106,7 @@
     "projects": [
       {
         "title": "Bid & Sell",
+        "img": "bid.png",
         "technologies": [
           "HTML",
           "CSS",
@@ -128,35 +129,29 @@
       },
       {
         "title": "Guess my Number",
-        "technologies": [
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "React",
-          "FireBase",
-          "Redux",
-          "StyledComponents"
-        ],
+        "img": "guess.png",
+        "technologies": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
         "buttons": [
           {
             "icon": "earth",
-            "url": "#"
+            "url": "https://biggicode.github.io/guess-my-numer/"
           },
           {
             "icon": "github",
-            "url": "https://github.com/biggicode/bid-and-sell"
+            "url": "https://github.com/biggicode/guess-my-numer"
           }
         ]
       },
       {
         "title": "Personal Cv",
+        "img": "cv.png",
         "technologies": [
           "HTML",
           "CSS",
           "JavaScript",
           "React",
-          "FireBase",
-          "Redux",
+          "Adobe XD",
+          "GitHub Pages",
           "StyledComponents"
         ],
         "buttons": [
@@ -166,12 +161,13 @@
           },
           {
             "icon": "github",
-            "url": "https://github.com/biggicode/bid-and-sell"
+            "url": "https://github.com/biggicode/personal-cv"
           }
         ]
       },
       {
         "title": "Recipe App",
+        "img": "recipe.png",
         "technologies": [
           "HTML",
           "CSS",
@@ -189,6 +185,96 @@
           {
             "icon": "github",
             "url": "https://github.com/biggicode/Recipe-App"
+          }
+        ]
+      },
+      {
+        "title": "Pig Game",
+        "img": "pig.png",
+        "technologies": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+        "buttons": [
+          {
+            "icon": "earth",
+            "url": "https://biggicode.github.io/pig-game/"
+          },
+          {
+            "icon": "github",
+            "url": "https://github.com/biggicode/pig-game"
+          }
+        ]
+      },
+      {
+        "title": "Restaurant HTML and CSS exercise",
+        "img": "restaurant.png",
+        "technologies": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+        "buttons": [
+          {
+            "icon": "earth",
+            "url": "https://biggicode.github.io/food-restaurant/src/"
+          },
+          {
+            "icon": "github",
+            "url": "https://github.com/biggicode/food-restaurant"
+          }
+        ]
+      },
+      {
+        "title": "PlayStation HTML and CSS exercise",
+        "img": "playstation.png",
+        "technologies": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+        "buttons": [
+          {
+            "icon": "earth",
+            "url": "https://biggicode.github.io/ps-presentation/src/"
+          },
+          {
+            "icon": "github",
+            "url": "https://github.com/biggicode/ps-presentation"
+          }
+        ]
+      },
+      {
+        "title": "Dance Club HTML and CSS exercise",
+        "img": "dance.png",
+        "technologies": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+        "buttons": [
+          {
+            "icon": "earth",
+            "url": "https://biggicode.github.io/dance-class/src/"
+          },
+          {
+            "icon": "github",
+            "url": "https://github.com/biggicode/dance-class"
+          }
+        ]
+      },
+      {
+        "title": "Fitness & Gym HTML and CSS exercise",
+        "img": "gym.png",
+        "technologies": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+        "buttons": [
+          {
+            "icon": "earth",
+            "url": "https://biggicode.github.io/valahia-gym/"
+          },
+          {
+            "icon": "github",
+            "url": "https://github.com/biggicode/valahia-gym"
+          }
+        ]
+      },
+      {
+        "title": "Landio HTML and CSS exercise",
+        "img": "landio.png",
+        "technologies": ["HTML", "CSS", "JavaScript", "GitHub Pages"],
+        "buttons": [
+          {
+            "icon": "earth",
+            "url": "https://biggicode.github.io/landio-landing-page/src/"
+          },
+          {
+            "icon": "github",
+            "url": "https://github.com/biggicode/landio-landing-page"
           }
         ]
       }
