@@ -16,9 +16,9 @@
       {
         "icon": "phone",
         "title": "Phone",
-        "description": "You can call me at this number 0734234234 . I'm able to respond most of the time.",
-        "label": "0789898989",
-        "link": "tel:0789898989"
+        "description": "You can call me at this number 0763694867 . I'm able to respond most of the time.",
+        "label": "0763694867",
+        "link": "tel:0763694867"
       },
       {
         "icon": "facebook",
@@ -31,15 +31,15 @@
         "icon": "codewars",
         "title": "Codewars",
         "description": "I just found out about this platform. I think this platform is a great environment for coding exercises and I plan to do more of it.",
-        "label": "0789898989",
-        "link": "tel:0789898989"
+        "label": "Oncescu Laurentiu",
+        "link": "https://www.codewars.com/users/biggicode"
       },
       {
         "icon": "linkedin",
         "title": "LinkedIn",
         "description": "Click below to find out more info about me.",
-        "label": "0789898989",
-        "link": "tel:0789898989"
+        "label": "Laurentiu Nicolae Oncescu",
+        "link": "https://www.linkedin.com/in/laurentiu-nicolae-oncescu-34a281203/"
       }
     ]
   },
