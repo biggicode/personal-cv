@@ -1,11 +1,14 @@
 import * as S from "./section-icon.style";
 
 function SectionIcon({ type }) {
-  return (
+  return type === "red" ? (
     <S.StyledLink
-      className={`icon-${type === "red" ? "github" : "arrow-down"}`}
-      href={type === "red" ? "https://github.com/biggicode" : "#"}
+      className="icon-github"
+      href="https://github.com/biggicode"
+      target="_blank"
     ></S.StyledLink>
+  ) : (
+    <S.StyledDiv className="icon-arrow-down"></S.StyledDiv>
   );
 }
 
