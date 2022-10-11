@@ -6,6 +6,7 @@ function SectionIcon({ type, last }) {
       className="icon-github"
       href="https://github.com/biggicode"
       target="_blank"
+      title="GitHub"
     ></S.StyledLink>
   ) : (
     <S.StyledDiv className="icon-arrow-down" last={last}></S.StyledDiv>

@@ -22,7 +22,10 @@ function Portfolio({ data }) {
                 {project.technologies.join(", ")}
               </S.ProjectTechnologies>
             </S.BoxHeader>
-            <S.StyledImg src={`/${project.img}`} />
+            <S.StyledImg
+              src={`/${project.img}`}
+              alt={`Image of the ${project.title} project`}
+            />
             {project.buttons.map((button, index) => (
               <S.ProjectButton
                 key={index}
@@ -30,6 +33,7 @@ function Portfolio({ data }) {
                 className={`icon-${button.icon}`}
                 href={button.url}
                 target="_blank"
+                title={button.url}
               />
             ))}
           </S.Card>
