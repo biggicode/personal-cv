@@ -156,10 +156,6 @@
         ],
         "buttons": [
           {
-            "icon": "earth",
-            "url": "#"
-          },
-          {
             "icon": "github",
             "url": "https://github.com/biggicode/personal-cv"
           }
