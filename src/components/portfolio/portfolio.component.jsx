@@ -31,6 +31,7 @@ function Portfolio({ data }) {
                 number={index}
                 className={`icon-${button.icon}`}
                 href={button.url}
+                target="_blank"
               />
             ))}
           </S.Card>
