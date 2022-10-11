@@ -31,7 +31,7 @@ function Recommendations({ data }) {
         </Fragment>
       ))}
       <GridRow>
-        <SectionIcon type="green" />
+        <SectionIcon type="green" last={true} />
       </GridRow>
     </>
   );

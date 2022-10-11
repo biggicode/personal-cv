@@ -12,9 +12,7 @@ function Portfolio({ data }) {
       <GridRow>
         <SectionIcon type="red" />
       </GridRow>
-      <GridRow>
-        <SemiTitle text={data.subTitle} />
-      </GridRow>
+      <SemiTitle text={data.subTitle} />
       {data.projects.map((project) => (
         <GridRow gridColumn="span 4" key={project.title}>
           <S.Card>

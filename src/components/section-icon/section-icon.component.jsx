@@ -1,6 +1,6 @@
 import * as S from "./section-icon.style";
 
-function SectionIcon({ type }) {
+function SectionIcon({ type, last }) {
   return type === "red" ? (
     <S.StyledLink
       className="icon-github"
@@ -8,7 +8,7 @@ function SectionIcon({ type }) {
       target="_blank"
     ></S.StyledLink>
   ) : (
-    <S.StyledDiv className="icon-arrow-down"></S.StyledDiv>
+    <S.StyledDiv className="icon-arrow-down" last={last}></S.StyledDiv>
   );
 }
 

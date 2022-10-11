@@ -20,4 +20,6 @@ export const StyledLink = styled.a`
 export const StyledDiv = styled.div`
   ${sharedStyles}
   background-color: #50d166;
+
+  ${({ last }) => (last ? "transform: rotate(180deg);" : "")}
 `;
