@@ -17,7 +17,7 @@ function Menu({ linkList }) {
     >
       {active ? (
         linkList.map((link) => (
-          <S.MenuLink key={link} href={`#${link}`}>
+          <S.MenuLink key={link} href={`#${link}`} title={`${link} section`}>
             {link}
           </S.MenuLink>
         ))

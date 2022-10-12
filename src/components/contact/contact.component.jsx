@@ -27,7 +27,7 @@ function Contact({ data }) {
       </GridRow>
       <GridRow gridColumn="span 4">
         <S.ImgWrapper>
-          <S.StyledImg src={profileImg} />
+          <S.StyledImg src={profileImg} alt="My profile picture" />
         </S.ImgWrapper>
       </GridRow>
 

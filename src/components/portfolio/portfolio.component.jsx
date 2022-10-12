@@ -12,9 +12,7 @@ function Portfolio({ data }) {
       <GridRow>
         <SectionIcon type="red" />
       </GridRow>
-      <GridRow>
-        <SemiTitle text={data.subTitle} />
-      </GridRow>
+      <SemiTitle text={data.subTitle} />
       {data.projects.map((project) => (
         <GridRow gridColumn="span 4" key={project.title}>
           <S.Card>
@@ -24,13 +22,18 @@ function Portfolio({ data }) {
                 {project.technologies.join(", ")}
               </S.ProjectTechnologies>
             </S.BoxHeader>
-            <S.StyledImg src={`/${project.img}`} />
+            <S.StyledImg
+              src={`/${project.img}`}
+              alt={`Image of the ${project.title} project`}
+            />
             {project.buttons.map((button, index) => (
               <S.ProjectButton
                 key={index}
                 number={index}
                 className={`icon-${button.icon}`}
                 href={button.url}
+                target="_blank"
+                title={button.url}
               />
             ))}
           </S.Card>
