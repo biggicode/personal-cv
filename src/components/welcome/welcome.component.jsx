@@ -34,7 +34,7 @@ function Welcome({ data }) {
       <DumbGap />
 
       <GridRow>
-        <PillButton icon="download" url={"blabla"} text={data.btnText} />
+        <PillButton icon="download" url="https://docs.google.com/document/d/10yHrnfB0BQoFoq8f00OXor67eHLg8DWk/edit?usp=sharing&ouid=117039979677052260305&rtpof=true&sd=true" text={data.btnText} />
       </GridRow>
 
       <GridRow>
